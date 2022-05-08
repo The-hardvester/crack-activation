@@ -32,6 +32,17 @@
     top: 40px;
 }
 
+.Edit{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-center img{
+    width: 540px;
+}
+
 footer p a{
 color: orangered;
 }
@@ -53,5 +64,9 @@ footer p{
     .En a{
         position: relative;
         left: 120px;
+    }
+    .Edit{
+        display: block;
+        text-align: center;
     }
 }

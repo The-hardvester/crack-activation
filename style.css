@@ -15,13 +15,7 @@
 .h2{
     text-transform: uppercase;
 }
-.text2{
-    text-align: center;
-    font-style: italic;
-    position: relative;
-    top: 200px;
-    
-}
+
 .icon img{ 
     position: relative;
     left: 40%;
@@ -53,6 +47,14 @@ color: orangered;
 footer p{
     text-align: center;
 }
+figure{
+    display: block;
+}
+img, figcaption{
+    display: block;
+    position: relative;
+    left: 110%;
+}
 
 @media (max-width: 576px){
     .icon img{
@@ -71,5 +73,10 @@ footer p{
     .Edit{
         display: block;
         text-align: center;
+    }
+    img, figcaption{
+        display: block;
+        position: relative;
+        left: 0%;
     }
 }
